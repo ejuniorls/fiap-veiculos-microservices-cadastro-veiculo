@@ -64,7 +64,7 @@ class VeiculoController {
             console.error('Erro ao listar veículos:', error);
             res.status(500).json({
                 success: false,
-                message: 'Erro interno do servidor'
+                message: 'Erro interno do servidor.'
             });
         }
     }
